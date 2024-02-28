@@ -14,7 +14,6 @@ export default function App() {
       {/* Componente Corpo */}
       <Footer /> 
       {/* Componente Rodapé */}
-    </View>
+ </View>
   );
 }
-
