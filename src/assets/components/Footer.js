@@ -7,7 +7,7 @@ export default function Footer() {
 return (
     <View style={styles.footer}>
 
-<Text>Footer</Text>
+<Text style={styles.textfooter}>Footer</Text>
 
     </View>
 )

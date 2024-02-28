@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
     body: {
         justifyContent:'center',
         alignItems: 'center',
-        flex:1
+        flex:1,
     },
     footer:{
         backgroundColor: 'green',
@@ -28,7 +28,15 @@ export const styles = StyleSheet.create({
     },
     container: {
         flex:1,
+    },
+    textfooter: {
+        fontSize: 40,
+    },
+    textbody: {
+        fontSize: 40,
+    },
+    textheader: {
+        fontSize: 40,
     }
-
 
 })
