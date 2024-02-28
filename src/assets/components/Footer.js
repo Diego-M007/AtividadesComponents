@@ -1,11 +1,15 @@
-import { StyleSheet, Text, View } from "react-native";
-import { StatusBar } from "expo-status-bar";
-import { styles } from "../estilos/styles";
+import { StyleSheet, Text, View, } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { styles } from '../estilos/styles';
 
 export default function Footer() {
-  return (
+
+return (
     <View style={styles.footer}>
-      <Text>Footer</Text>
+
+<Text>Footer</Text>
+
     </View>
-  );
+)
+
 }

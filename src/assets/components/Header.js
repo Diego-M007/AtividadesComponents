@@ -1,11 +1,18 @@
-import { StyleSheet, Text, View, TextInput, Button, Image } from "react-native";
-import { StatusBar } from "expo-status-bar";
-import { styles } from "../estilos/styles";
+import { StyleSheet, Text, View, TextInput, Button, Image } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { styles } from '../estilos/styles';
 
 export default function Header() {
-  return (
+
+return (
     <View style={styles.header}>
-      <Text>Header</Text>
+
+<Text>Header</Text>
+
+
+
+
     </View>
-  );
+)
+
 }

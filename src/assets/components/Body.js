@@ -1,11 +1,15 @@
-import { StyleSheet, Text, View, TextInput, Button, Image } from "react-native";
-import { StatusBar } from "expo-status-bar";
-import { styles } from "../estilos/styles";
+import { StyleSheet, Text, View, TextInput, Button, Image } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { styles } from '../estilos/styles';
 
 export default function Body() {
-  return (
+
+return (
     <View style={styles.body}>
-      <Text>Body</Text>
+
+    <Text>Body</Text>
+
     </View>
-  );
+)
+
 }
